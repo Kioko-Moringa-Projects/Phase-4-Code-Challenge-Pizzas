@@ -1,5 +1,6 @@
 class PizzasController < ApplicationController
     def index
-        render json: Pizza.all.to_json
+        pizzas = Pizza.all 
+        render json: pizzas, status: :ok
     end
 end
