@@ -1,24 +1,28 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Phase-4-Code-Challenge-Pizzas
 
-Things you may want to cover:
+Implementing a 'mini' Rails application that implements associations.
 
-* Ruby version
+## Authors
 
-* System dependencies
+Calvin Kioko
+## Deployment
 
-* Configuration
+This project has been deployed in Heroku. To test the project use https://pizzas-40211.herokuapp.com
 
-* Database creation
+GET routes 
+- /restaurants
+- /pizzas
+- /restaurants/:id
 
-* Database initialization
+POST routes
+- /restaurant_pizzas
 
-* How to run the test suite
+DELETE routes
+- /restaurants/:id
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+
